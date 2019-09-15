@@ -5,7 +5,7 @@ Instructions
 ==
 ## Easy Install
 1. Clone this readme using the following command (should clone while sshed into lab computers):
-``` git clone _____```
+``` git clone https://github.com/NickDeas/Clemson-Assembly-Vim-Syntax-Highlighter.git```
 2. Navigate into the repository using the following command:
 ```cd Clemson-Assembly-Vim-Syntax-Highlighter```
 3. Run the following command in you terminal:
