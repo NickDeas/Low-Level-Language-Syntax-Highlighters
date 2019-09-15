@@ -1,0 +1,8 @@
+highlight WordLabel ctermfg=Blue
+highlight Paren ctermfg=red
+highlight MComment  ctermfg=DarkGray
+highlight Op    ctermfg=cyan
+highlight Num   ctermfg=DarkMagenta
+highlight Var   ctermfg=yellow
+
+syntax on
