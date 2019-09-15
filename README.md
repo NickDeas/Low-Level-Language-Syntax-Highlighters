@@ -4,10 +4,10 @@ Vim Syntax Highlighter for Assembly Language files at Clemson.  (Most applicable
 Instructions
 ==
 ## Easy Install
-1. Clone this readme using the following command (should clone while sshed into lab computers):
+1. Clone this readme using the following command (should clone while ssh-ed into lab computers):
 ``` git clone https://github.com/NickDeas/Clemson-Assembly-Vim-Syntax-Highlighter.git```
 2. Navigate into the repository using the following command:
-```cd Clemson-Assembly-Vim-Syntax-Highlighter```
+```cd Clemson-Assembly-Vim-Syntax-Highlighter/src```
 3. Run the following command in you terminal:
 ```chmod +x VimAssemblySynInstaller```
 4. Then run the following command in your terminal:
