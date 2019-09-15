@@ -6,9 +6,13 @@ Instructions
 ## Easy Install
 1. Clone this readme using the following command (should clone while sshed into lab computers):
 ``` git clone _____```
-2. Then run the following command in your terminal:
-``` ./VimAssemblySynInstaller.sh ```
-3. If not working, ensure the following 2 lines are in your ~/.vimrc at the end of the file:
+2. Navigate into the repository using the following command:
+```cd Clemson-Assembly-Vim-Syntax-Highlighter```
+3. Run the following command in you terminal:
+```chmod +x VimAssemblySynInstaller```
+4. Then run the following command in your terminal:
+```./VimAssemblySynInstaller.sh```
+5. If not working, ensure the following 2 lines are in your ~/.vimrc at the end of the file:
 ```
 filetype plugin indent on
 syntax on
