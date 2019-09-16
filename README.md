@@ -9,7 +9,7 @@ Instructions
 2. Navigate into the repository using the following command:
 ```cd Clemson-Assembly-Vim-Syntax-Highlighter/src```
 3. Run the following command in you terminal:
-```chmod +x VimAssemblySynInstaller```
+```chmod +x ./VimAssemblySynInstaller.sh```
 4. Then run the following command in your terminal:
 ```./VimAssemblySynInstaller.sh```
 5. If not working, ensure the following 2 lines are in your ~/.vimrc at the end of the file:
