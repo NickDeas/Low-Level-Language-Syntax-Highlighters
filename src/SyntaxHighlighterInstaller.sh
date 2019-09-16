@@ -9,7 +9,7 @@ else
 
 	mkdir -p ~/.vim/ftdetect ~/.vim/syntax
 	
-	if [ "$1" == "ACC" ]; then
+	if [ "$1" == "ACC" ] || [ "$1" == "ALL" ]; then
 		dos2unix ftdetect/m.vim
 		dos2unix syntax/m.vim
 		dos2unix ./vimrc_append_m.txt
@@ -17,7 +17,7 @@ else
 		cp ./syntax/m.vim ~/.vim/syntax/m.vim
 		sed -i '/syntax on/d' ~/.vimrc
 		cat ./vimrc_append_m.txt >> ~/.vimrc
-	elif [ "$1" == "ARM" ]; then
+	elif [ "$1" == "ARM" ] || [ "$1" == "ALL" ]; then
 		dos2unix ftdetect/s.vim
 		dos2unix syntax/s.vim
 		dos2unix ./vimrc_append_s.txt
@@ -26,7 +26,7 @@ else
 		sed -i '/syntax on/d' ~/.vimrc
 		cat ./vimrc_append_s.txt >> ~/.vimrc
 	else
-		echo "Language Arugment not recognized, options: {\"ARM\", \"ACC\"}"
+		echo "Language Argument not recognized, options: {\"ARM\", \"ACC\", \"ALL\"}"
 	fi
 fi
 	echo "Completed Syntax Highlighting Installation"

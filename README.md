@@ -10,7 +10,7 @@ Instructions
 ```cd Low-Level-Language-Syntax-Highlighters/src```
 3. Run the following command in you terminal:
 ```chmod +x ./SyntaxHighlighterInstaller.sh```
-4. Then run the following command in your terminal, using either `ACC` or `ARM` depending on what syntax highlighter you would like:
+4. Then run the following command in your terminal, using either `ACC`, `ARM`, or `ALL` depending on what syntax highlighter(s) you would like:
 ```./SyntaxHighlighterInstaller.sh ACC/ARM```
 TIP: If not working, ensure the following 2 lines are in your ~/.vimrc at the end of the file:
 ```
@@ -31,6 +31,8 @@ syntax on
 filetype plugin indent on
 syntax on
 ```
+7. You can repeat these steps with the other languages you would like syntax highlighters for
+			ARM: Replace m with s in the steps above (i.e. m.vim --> s.vim)
 TIP: The Syntax Highlighting may not work if you have a colorscheme set in your .vimrc file.  Ensure to delete or comment out the line while working with assembly files.
 
 
