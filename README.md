@@ -1,18 +1,18 @@
-# Clemson-Assembly-Vim-Syntax-Highlighter
+# Low Level Language Syntax Highlighter
 Vim Syntax Highlighter for Assembly Language files at Clemson.  (Most applicable to CPSC 2310 - Intro to Computer Organization)
 
 Instructions
 ==
 ## Easy Install
 1. Clone this readme using the following command (should clone while ssh-ed into lab computers):
-``` git clone https://github.com/NickDeas/Clemson-Assembly-Vim-Syntax-Highlighter.git```
+``` git clone https://github.com/NickDeas/Low-Level-Language-Syntax-Highlighter.git```
 2. Navigate into the repository using the following command:
-```cd Clemson-Assembly-Vim-Syntax-Highlighter/src```
+```cd Low-Level-Language-Syntax-Highlighter/src```
 3. Run the following command in you terminal:
-```chmod +x ./VimAssemblySynInstaller.sh```
-4. Then run the following command in your terminal:
-```./VimAssemblySynInstaller.sh```
-5. If not working, ensure the following 2 lines are in your ~/.vimrc at the end of the file:
+```chmod +x ./SyntaxHighlighterInstaller.sh```
+4. Then run the following command in your terminal, using either `ACC` or `ARM` depending on what syntax highlighter you would like:
+```./SyntaxHighlighterInstaller.sh ACC/ARM```
+TIP: If not working, ensure the following 2 lines are in your ~/.vimrc at the end of the file:
 ```
 filetype plugin indent on
 syntax on
@@ -36,4 +36,5 @@ TIP: The Syntax Highlighting may not work if you have a colorscheme set in your 
 
 Examples
 ==
+Accumulator Machine
 ![Example Image](https://raw.githubusercontent.com/NickDeas/Clemson-Assembly-Vim-Syntax-Highlighter/master/EX_pic.JPG)

@@ -1,0 +1,13 @@
+highlight SComment ctermfg=Green
+highlight Cond ctermfg=cyan
+highlight Shift ctermfg=cyan
+highlight Label ctermfg=Blue
+highlight LabelVar ctermfg=Blue
+highlight BOp ctermfg=cyan
+highlight Register ctermfg=yellow
+highlight PerComm ctermfg=yellow
+highlight StackOp ctermfg=cyan
+highlight PerCommBody ctermfg=Blue
+highlight StackElem ctermfg=yellow
+
+syntax on
