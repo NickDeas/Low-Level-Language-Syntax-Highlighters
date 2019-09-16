@@ -37,4 +37,8 @@ TIP: The Syntax Highlighting may not work if you have a colorscheme set in your 
 Examples
 ==
 Accumulator Machine
-![Example Image](https://raw.githubusercontent.com/NickDeas/Clemson-Assembly-Vim-Syntax-Highlighter/master/EX_pic.JPG)
+![Example Image](https://raw.githubusercontent.com/NickDeas/Low-Level-Language-Syntax-Highlighters/master/EX_pic.JPG)
+
+ARM Assembly
+![Example Image2](https://raw.githubusercontent.com/NickDeas/Low-Level-Language-Syntax-Highlighters/master/EX_pic_arm.JPG)
+
