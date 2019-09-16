@@ -44,3 +44,6 @@ Accumulator Machine
 ARM Assembly
 ![Example Image2](https://raw.githubusercontent.com/NickDeas/Low-Level-Language-Syntax-Highlighters/master/EX_pic_arm.JPG)
 
+Customization
+==
+The syntax highlighting colors for each class of code patterns is found in your ~/.vimrc file.  The lines begin with highlight.  You can change the value of `ctermfg` in each line to change the colors to any of the allowed color keywords in vim.
