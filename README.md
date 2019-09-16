@@ -5,9 +5,9 @@ Instructions
 ==
 ## Easy Install
 1. Clone this readme using the following command (should clone while ssh-ed into lab computers):
-``` git clone https://github.com/NickDeas/Low-Level-Language-Syntax-Highlighter.git```
+``` git clone https://github.com/NickDeas/Low-Level-Language-Syntax-Highlighters.git```
 2. Navigate into the repository using the following command:
-```cd Low-Level-Language-Syntax-Highlighter/src```
+```cd Low-Level-Language-Syntax-Highlighters/src```
 3. Run the following command in you terminal:
 ```chmod +x ./SyntaxHighlighterInstaller.sh```
 4. Then run the following command in your terminal, using either `ACC` or `ARM` depending on what syntax highlighter you would like:
