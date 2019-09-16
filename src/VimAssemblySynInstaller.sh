@@ -1,5 +1,5 @@
 echo "Beginning installation..."
-mkdir -p ~/.vim/{ftdetect, syntax}
+mkdir -p ~/.vim/ftdetect ~/.vim/syntax
 dos2unix ftdetect/m.vim
 dos2unix syntax/m.vim
 dos2unix ./vimrc_append.txt
